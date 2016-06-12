@@ -9,11 +9,14 @@
     "backbone": "~1.1.2"
   },
   "devDependencies": {
+    "browserify": "~3.38.0",
     "buildify": "~0.4.0",
-    "underscore": "~1.5.2",
-    "uglify-js": "~2.4.11",
+    "istanbul": "^0.4.3",
     "jquery": "~2.1.0",
-    "browserify": "~3.38.0"
+    "node-qunit-phantomjs": "^1.4.0",
+    "node-qunit-phantomjs-istanbul": "^1.0.0",
+    "uglify-js": "~2.4.11",
+    "underscore": "~1.5.2"
   },
   "main": "distribution.amd/backbone-forms.js",
   "browser": "distribution/backbone-forms.js",
