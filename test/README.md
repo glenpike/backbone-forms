@@ -1,6 +1,6 @@
 Try to instrument the "built" files
 
-./node_modules/.bin/istanbul instrument --output coverage ../distribution/
+./node_modules/.bin/istanbul instrument --output test/coverage ./distribution/
 
 
 We can't currently run istanbul cover so we have to do the middle step manually!
@@ -20,4 +20,4 @@ Can also use the qunit.js file in root to run the node-qunit-phantomjs-istanbul 
 
 node qunit.js
 #Make sure that coverage.json from above experiment is not there!
-./node_modules/.bin/istanbul report --dir cov2 --root test/
+./node_modules/.bin/istanbul report --dir test/coverage-report --root test/
